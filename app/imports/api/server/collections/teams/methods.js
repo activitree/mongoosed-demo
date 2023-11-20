@@ -1,6 +1,6 @@
 import { ValidatedMethod } from 'meteor/mdg:validated-method'
 import { MongooseSchemaValidator, create } from 'meteor/activitree:mongoosed'
-import SimpleSchema from 'simpl-schema'
+import SimpleSchema from '@activitree/simpl-schema'
 import Teams from './teams'
 import { TeamModel } from './model'
 

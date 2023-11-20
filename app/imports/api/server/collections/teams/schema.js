@@ -1,5 +1,5 @@
 import { m } from 'meteor/activitree:mongoosed'
-import SimpleSchema from 'simpl-schema'
+import SimpleSchema from '@activitree/simpl-schema'
 
 const TeamMeteorSchema = new SimpleSchema({
   name: String,
