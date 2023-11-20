@@ -9,9 +9,6 @@ import { myTasks } from './tasksToInsert'
 import SimpleSchema from '@activitree/simpl-schema'
 import Tasks from './tasks'
 
-console.log({ ScheduleModel })
-
-
 new ValidatedMethod({
   name: 'createTask',
   validate: new SimpleSchema({

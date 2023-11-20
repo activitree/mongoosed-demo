@@ -39,6 +39,8 @@ export default function Default () {
     setShowPopulate(true)
   }
 
+  console.log(data)
+
   return (
     <>
       <button onClick={() => onShowFromSource()}>{!showMeteor ? 'Show Data With Meteor Mongo' : 'Show Data With Mongoose'}</button>
